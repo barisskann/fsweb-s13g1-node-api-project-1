@@ -40,7 +40,7 @@ Her Kullanıcı _kaynak_ aşağıdaki yapıya uymalıdır (AKA şeması):
   name: "Jane Doe",  // String, gerekli
   bio: "Having fun", // String, gerekli
 }
-```
+```<
 
 #### Veritabanı erişim fonksiyonları
 
@@ -135,7 +135,7 @@ Dikkat, Esnek görevlere başlamadan MVP'yi tamamladığınızdan emin olun. Eğ
 
 `cors` ara yazılımını etkinleştirmeniz gerekecek:
 
-- `cors` npm modulünü ekleyin: `npm i cors`.
+- `cors` npm modulünü ekleyin: `npm i cors`." G
 - `server.use(express.json())` arkasına `server.use(cors())` ekleyin.
 
 Yeni bir React uygulaması oluşturun ve sunucunuza bağlayın:

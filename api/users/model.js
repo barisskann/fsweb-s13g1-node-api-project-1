@@ -53,7 +53,7 @@ const remove = id => {
   if (!user) return Promise.resolve(null)
 
   users = users.filter(d => d.id !== id)
-  return Promise.resolve(user)
+  return Promise.resolve(users)
 }
 
 const resetDB = () => { // ONLY TESTS USE THIS ONE
